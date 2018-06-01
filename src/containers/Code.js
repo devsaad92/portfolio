@@ -157,10 +157,10 @@ class Code extends Component {
                 <PortTitle>Graft</PortTitle>
                 <PortButtonContainer>
                   <PortButton
-                    href = "https://github.com/devsaad92/platform-graft"
+                    href = "http://greff.cinq-e.com/"
                     target="_blank"
                   >
-                    Code
+                    Demo
                   </PortButton>
                 </PortButtonContainer>
               </PortTitleContainer>
