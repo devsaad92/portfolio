@@ -142,7 +142,7 @@ class Code extends Component {
                 <li>Git</li>
                 <li>Webpack</li>
                 <li>JSON</li>
-                <li>Karma & Jasmine Testing</li>
+                <li>Mocha & Jasmine Testing</li>
                 <li>Agile development</li>
               </ul>
             </div>
