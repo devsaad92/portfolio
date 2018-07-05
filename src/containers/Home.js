@@ -7,7 +7,7 @@ class Home extends Component {
     return (
       <div>
         <CenteredHeader>Hi! I'm Saad.
-					I am a full stack web developer specializing mostly in JavaScript/Node.js and Angular 2+ but also work with PHP/Laravel, C# & Python.
+					I am a full stack developer specializing mostly in JavaScript/Node.js and Angular 2+ but also work with PHP/Laravel.
         </CenteredHeader>
       </div>
     );

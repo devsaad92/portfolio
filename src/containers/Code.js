@@ -116,7 +116,6 @@ class Code extends Component {
               <ul>
                 <li>JavaScript (ES6)</li>
                 <li>Angular 2+</li>
-                <li>React</li>
                 <li>Apollo</li>
                 <li>Bootstrap 4</li>
                 <li>HTML5</li>
@@ -129,7 +128,7 @@ class Code extends Component {
               <h5>Back-end:</h5>
               <ul>
                 <li>Node.js</li>
-                <li>Express</li>
+                <li>Express.js</li>
                 <li>MySQL/PostgreSQL</li>
                 <li>Sequelize</li>
                 <li>GraphQL</li>
@@ -142,7 +141,7 @@ class Code extends Component {
                 <li>Git</li>
                 <li>Webpack</li>
                 <li>JSON</li>
-                <li>Karma & Jasmine Testing</li>
+                <li>Karma & Jest Testing</li>
                 <li>Agile development</li>
               </ul>
             </div>
@@ -152,9 +151,19 @@ class Code extends Component {
         <div>
           <CenteredHeader>Recent work:</CenteredHeader>
           <PortRow>
+            <CodeThumbnail src={require("../assets/Accueil.JPG")} />
+            <br/>
+            <hr />
+            <br/>
+            <CodeThumbnail src={require("../assets/chat.png")} />
+            <br/>
+            <hr />
+            <br/>
+            <CodeThumbnail src={require("../assets/bilan.png")} />
+            
             <PortAllText>
               <PortTitleContainer>
-                <PortTitle>Graft</PortTitle>
+                <PortTitle>Graft-platform</PortTitle>
                 <PortButtonContainer>
                   <PortButton
                     href = "http://greff.cinq-e.com/"
@@ -165,12 +174,13 @@ class Code extends Component {
                 </PortButtonContainer>
               </PortTitleContainer>
               <PortDescription>
-                My Platform Graft project, Graft is a web
+                Graft-platform is a web
                 application for design and creation of EMRs(Electronic Medical Records) platform with a
                 beautiful and intuitive interface. It includes image uploading
                 capability.
                 Is dedicated to help doctors organise medical records, discuss and follow up
-                patients situations in real time
+                patients situations in real time.
+                Specifically for the pediatric surgery department.
               </PortDescription>
               <UsedList>
                 <UsedItem>Angular 5</UsedItem>
@@ -179,11 +189,13 @@ class Code extends Component {
                 <UsedItem>PostgreSQL</UsedItem>
                 <UsedItem>Sequelize</UsedItem>
                 <UsedItem>GraphQL</UsedItem>
+                <UsedItem>Apollo</UsedItem>
               </UsedList>
             </PortAllText>
           </PortRow>
           <hr />
           <PortRow>
+            <CodeThumbnail src={require("../assets/Ecommerce.png")} />
             <PortAllText>
               <PortTitleContainer>
                 <PortTitle>E-commerce</PortTitle>

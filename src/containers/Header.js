@@ -33,7 +33,7 @@ class Header extends Component {
       <HeaderDiv>
         <Link to="/">
           <ProfileImage src={require('../assets/confettiCropped.jpeg')} alt='Med Saad'/>
-          <ProfileTitle>MOHAMED SAADNA</ProfileTitle>
+          <ProfileTitle>SAAD MOHAMED</ProfileTitle>
         </Link>
         <div>
           <NavLink to='/'>ABOUT</NavLink>
