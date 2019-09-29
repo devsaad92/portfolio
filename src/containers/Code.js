@@ -117,31 +117,24 @@ class Code extends Component {
                 <li>JavaScript (ES6)</li>
                 <li>Angular 2+</li>
                 <li>Apollo</li>
-                <li>Bootstrap 4</li>
-                <li>HTML5</li>
-                <li>CSS3/Sass</li>
-                <li>jQuery</li>
-                <li>Angular Material</li>
+                <li>React</li>
               </ul>
             </div>
             <div className="col-lg-4 col-md-4 col-sm-4">
               <h5>Back-end:</h5>
               <ul>
                 <li>Node.js</li>
-                <li>Express.js</li>
                 <li>MySQL/PostgreSQL</li>
-                <li>Sequelize</li>
                 <li>GraphQL</li>
-                <li>Laravel5</li>
+                <li>Spring Boot</li>
               </ul>
             </div>
             <div className="col-lg-4 col-md-4 col-sm-4">
               <h5>Other:</h5>
               <ul>
                 <li>Git</li>
-                <li>Webpack</li>
-                <li>JSON</li>
-                <li>Karma & Jest Testing</li>
+                <li>DevOps</li>
+                <li>Jest Testing</li>
                 <li>Agile development</li>
               </ul>
             </div>
@@ -150,17 +143,7 @@ class Code extends Component {
         <hr />
         <div>
           <CenteredHeader>Recent work:</CenteredHeader>
-          <PortRow>
-            <CodeThumbnail src={require("../assets/Accueil.JPG")} />
-            <br/>
-            <hr />
-            <br/>
-            <CodeThumbnail src={require("../assets/chat.png")} />
-            <br/>
-            <hr />
-            <br/>
-            <CodeThumbnail src={require("../assets/bilan.png")} />
-            
+          <PortRow>            
             <PortAllText>
               <PortTitleContainer>
                 <PortTitle>Graft-platform</PortTitle>
@@ -195,7 +178,6 @@ class Code extends Component {
           </PortRow>
           <hr />
           <PortRow>
-            <CodeThumbnail src={require("../assets/Ecommerce.png")} />
             <PortAllText>
               <PortTitleContainer>
                 <PortTitle>E-commerce</PortTitle>
